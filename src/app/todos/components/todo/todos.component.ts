@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IStateTodo } from '../../interfaces/todo.interface';
 
 @Component({
   selector: 'app-todo',

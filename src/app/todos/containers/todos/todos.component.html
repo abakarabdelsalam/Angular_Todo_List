@@ -5,15 +5,15 @@
         <input type="text" matInput>
     </mat-form-field>
 
+    <app-todo></app-todo>
    
-    <mat-accordion>
+    <mat-accordion [hidden]="isHidden">
         <mat-expansion-panel>
             <mat-expansion-panel-header>
                 <mat-panel-title>
                     Terminée(s)
                 </mat-panel-title>
             </mat-expansion-panel-header>
-        
         </mat-expansion-panel>
     </mat-accordion>
 
